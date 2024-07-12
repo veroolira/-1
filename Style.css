@@ -1,46 +1,74 @@
+main {
+    display: flex;  
+  }
+body {
+    background-color: rgba(202, 229, 238, 0.947);
+    margin: 15px;
+    border: 75px;
+    padding: 70px;
+    padding-top: 10px;
+  }
 h1 {
     color: rgb(142, 30, 142);
-    text-align: center; font-family: Helvetica, sans-serif; font-size: 45px;background-color: rgba(100, 149, 212, 0.514);border: dotted;
+    text-align: center; 
+    font-family: "Playwrite HU", cursive;
+    font-size: 45px;
+    background-color: rgba(100, 149, 212, 0.514);
+    border: dotted;
   }
-  h4 {
-    color: blueviolet;
-    text-align: left; font-family: Helvetica, sans-serif
-  }
-  h2 {
+h2 {
     color: rgb(98, 98, 215);
-    text-align: left; font-family: Helvetica, sans-serif
+    text-align: left; 
+    font-family: Helvetica, sans-serif
   }
-  body {
-    background-color: rgba(202, 229, 238, 0.947);margin: 135px;border: 115px;padding: 300px;padding-top: 1px;
-  }
-  h3 {
+h3 {
     color: rgb(197, 65, 104);
     font-family: Helvetica, sans-serif;
   }
+h4 {
+    color: blueviolet;
+    text-align: left; 
+    font-family: Helvetica, sans-serif
+  }
   .secciones {
     color: rgb(33, 4, 29);
-    font-family: Helvetica, sans-serif; font-size: small; background-color: rgba(210, 206, 245, 0.674);border: solid;margin: 8px;
+    font-family: Helvetica, sans-serif; 
+    font-size: small; 
+    background-color: rgba(210, 206, 245, 0.674);
+    border: solid;
+    margin: 8px;
+    padding: 10px;
   }
-  #Idiomas{
-    background-size: contain;content:icon;border: 300px;  }
+#Idiomas {
+    background-size: contain;
+    content:icon;
+    border:solid 3px; }
   footer {
     color: blueviolet;
-    text-align: right; font-family: Helvetica, sans-serif
+    text-align: right; 
+    font-family: Helvetica, sans-serif
   }
   .main h2 {
     color: rgb(98, 98, 215);
-    text-align: center; font-family: Helvetica, sans-serif; background-color: rgb(87, 14, 121);
+    text-align: center; 
+    font-family: Helvetica, sans-serif; 
+    background-color: rgb(87, 14, 121);
   }
   .profession h2{
     color:rgb(117, 96, 137);
-    font-family: Helvetica, sans-serif; font-size: 30px; background-color:  rgb(195, 157, 242);text-align: center; border: solid;
+    font-family: Helvetica, sans-serif; 
+    font-size: 30px; 
+    background-color:  rgb(195, 157, 242);
+    text-align: center; 
+    border: solid 3px;
+    margin: 3px;
+    padding: 5px;
   }
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    padding: 5%;
+    width: 30%;
   }
-  main {
-    display: flex;
-  }
+  
